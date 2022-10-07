@@ -44,3 +44,76 @@
     color:green;
     border-color:green ;
 }
+/*************************************************/
+
+/* 首页顶部个人信息介绍样式 */
+#site-info{
+    margin-top:-120px;
+} 
+#site-info div{
+    margin-top: 12px;
+}
+#site-title{
+    font-size:x-large !important;
+}
+#site-info hr{
+    margin:3px 0;
+}
+#site-info hr::before{
+    content: "";
+    display: inline;
+}  
+#site-img img{
+    width:120px;
+    height:auto;
+    border-radius: 100%;
+}
+/* 描述特效 */
+#site-subtitle{
+    font-family: "Microsoft YaHei";
+    font-size: 60px;
+    text-align: center;
+    background: -webkit-linear-gradient(left, rgb(115, 0, 255), rgb(255, 0, 0)) 0 0 no-repeat;/*设置线性渐变*/
+    background-size: 160px;                        /*设置背景大小*/
+    -webkit-background-clip:text;                            /*背景被裁剪到文字*/
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.4);        /*设置文字的填充颜色*/
+    animation: shine 3s infinite;                    /*设置动画*/
+}
+@keyframes shine{   /*创建动画*/
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 100% 100%;
+    }
+}
+#site-description span{
+    color:white;
+    border-color: cyan;
+}
+#site-description span:hover{
+    color:red;
+    font-weight: bolder;
+}
+
+
+ /*主页个人信息按钮特效 */
+ .border-btn {
+    border: 0;
+   
+    border-radius: 50px 10px 50px 10px;
+    background: #2ec4b6;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 30px;
+    outline: none;
+    position: relative;
+    transition: border-radius 2s;
+    -webkit-transition: border-radius 1s;
+  }
+
+  .border-btn:hover {
+    border-radius: 10px;
+  }
