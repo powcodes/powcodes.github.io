@@ -1,0 +1,46 @@
+/*  */
+#post-info{
+    text-align: left !important;
+}
+/* 右侧底部边距 */
+#rightside{
+    bottom:120px;
+    right:-52px;
+}
+/* 页面底部内容样式 */
+#footer-wrap{
+    padding:18px 30px;
+}
+/* 个人描述介绍 */
+#author-info__description{
+    font-size: 12px;
+}
+.desc{
+    display: inline-block;
+    height:2em;
+    line-height: 2em;
+    margin-top:3px;
+    padding:1px 3px;
+    border-radius: 5px;
+    border-bottom-style: solid;
+}
+.learn{
+    color:#49b1f5;
+    border-color:#49b1f5 ;
+}
+.question{
+    color:blue;
+    border-color:blue ;
+}
+.think{
+    color:red;
+    border-color:red ;
+}
+.discern{
+    color:cyan;
+    border-color:cyan ;
+}
+.act{
+    color:green;
+    border-color:green ;
+}
