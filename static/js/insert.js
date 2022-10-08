@@ -51,7 +51,7 @@
 //自定义首页页面公告
 (function(){
     //判断是否是首页
-    if(location.href.endsWith('/')){
+    if($("#site-info")){
         $("#recent-posts").prepend("<div class='recent-post-item announcement'>"+
                                 "<i class='fas fa-bullhorn '></i>自定义公告内容</div>"); 
     }
