@@ -52,6 +52,7 @@
 (function(){
     //判断是否是首页
     if($("#site-info")){
+        alert("执行了");
         $("#recent-posts").prepend("<div class='recent-post-item announcement'>"+
                                 "<i class='fas fa-bullhorn '></i>自定义公告内容</div>"); 
     }
