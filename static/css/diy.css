@@ -1,3 +1,10 @@
+/* 网站标题 */
+#site-name:hover{
+    background-color: #80c8f8;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+    padding:6px 3px;
+}
 /*  */
 #post-info{
     text-align: left !important;
@@ -117,3 +124,26 @@
   .border-btn:hover {
     border-radius: 10px;
   }
+/* 首页公告 */
+#recent-posts .announcement{
+    display: box;
+    display: flex;
+    height: 3em;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    align-items:left !important;
+    padding:30px 20px;
+}
+#recent-posts .announcement i{
+    color: red;
+    font-weight: bolder;
+    margin:0 3px;
+}
+
+/************************************/
+/* 定义Page页面的标题提示栏 */
+.page-title{
+    text-align: center;
+    margin:0px  !important;
+}
